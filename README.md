@@ -5,11 +5,11 @@ Resultatarkiv for Byskytinga: Den årlige skytekonkurransen mellom skytterlagene
 1. Logg inn på github.com (må opprette konto og gis rettigheter til å bidra).
 2. Last opp bildefilene med skiveutskrift til assets/images/gravkort/lagskyting/<årstall> og assets/images/gravkort/patronistskyting/<årstall> (greiest å navngi filene slik: <lag>_<skive>.<format> (feks 1_4.png for skive 4 på lag 1 og bildet er en png-fil)).
 3. Legg inn resultatene i filene _data/lagskyting_sammenlagt.csv, _data/lagskyting individuelt.csv og _data/patronistskyting.csv:
- * Resultatene legges inn slik at siste år ligger øverst.
- * Resultatene for hvert år legges inn sortert på plassering/poeng fra høyest til lavest.
- * Bruk "," som separator.
- * Bruk "." som desimaltegn.
- * Inkluder referanse til filnavnet gitt til skiveutskriften i den siste kolonnen.
+  * Resultatene legges inn slik at siste år ligger øverst.
+  * Resultatene for hvert år legges inn sortert på plassering/poeng fra høyest til lavest.
+  * Bruk "," som separator.
+  * Bruk "." som desimaltegn.
+  * Inkluder referanse til filnavnet gitt til skiveutskriften i den siste kolonnen.
 4. Etter arrangement i Molde legges nyutnevnte riddere til øverst i _data/ridderutnevnelse.csv.
 
 ## Valideringer
