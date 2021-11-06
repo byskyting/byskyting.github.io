@@ -37,10 +37,10 @@ title: Lagskyting individuelt
   {%- assign 15_skudd_serie_sum = row["1_serie"] | plus: row["2_serie"] | plus: row["3_serie"] %}
   {%- assign 15_skudd_sum = row["15_skudd"] | plus: 0 %}
   {%- if 15_skudd_serie_sum > 0 and 15_skudd_sum > 0 and 15_skudd_serie_sum != 15_skudd_sum %}
-    <td class="mobile_hide data_issue">{{ row["1_serie"] }}</td>
-    <td class="mobile_hide data_issue">{{ row["2_serie"] }}</td>
-    <td class="mobile_hide data_issue">{{ row["3_serie"] }}</td>
-    <td class="red_color">{{ row["15_skudd"] }}</td>
+    <td class="mobile_hide data_issue">*{{ row["1_serie"] }}</td>
+    <td class="mobile_hide data_issue">*{{ row["2_serie"] }}</td>
+    <td class="mobile_hide data_issue">*{{ row["3_serie"] }}</td>
+    <td class="data_issue">*{{ row["15_skudd"] }}</td>
   {%- else %}
     <td class="mobile_hide">{{ row["1_serie"] }}</td>
     <td class="mobile_hide">{{ row["2_serie"] }}</td>
@@ -50,8 +50,8 @@ title: Lagskyting individuelt
   {%- assign 25_skudd_serie_sum = row["15_skudd"] | plus: row["4_serie"] %}
   {%- assign 25_skudd_sum = row["25_skudd"] | plus: 0 %}
   {%- if 25_skudd_serie_sum > 0 and 25_skudd_sum > 0 and 25_skudd_serie_sum != 25_skudd_sum %}
-    <td class="data_issue">{{ row["4_serie"] }}</td>
-    <td class="mobile_hide data_issue">{{ row["25_skudd"] }}</td>
+    <td class="data_issue">*{{ row["4_serie"] }}</td>
+    <td class="mobile_hide data_issue">*{{ row["25_skudd"] }}</td>
   {%- else %}
     <td>{{ row["4_serie"] }}</td>
     <td class="mobile_hide">{{ row["25_skudd"] }}</td>
@@ -59,8 +59,8 @@ title: Lagskyting individuelt
   {%- assign 35_skudd_serie_sum = row["25_skudd"] | plus: row["5_serie"] %}
   {%- assign 35_skudd_sum = row["35_skudd"] | plus: 0 %}
   {%- if 35_skudd_serie_sum > 0 and 35_skudd_sum > 0 and 35_skudd_serie_sum != 35_skudd_sum %}
-    <td class="data_issue">{{ row["5_serie"] }}</td>
-    <td class="data_issue">{{ row["35_skudd"] }}</td>
+    <td class="data_issue">*{{ row["5_serie"] }}</td>
+    <td class="data_issue">*{{ row["35_skudd"] }}</td>
   {%- else %}
     <td>{{ row["5_serie"] }}</td>
     <td>{{ row["35_skudd"] }}</td>
