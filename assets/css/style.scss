@@ -1,0 +1,92 @@
+---
+---
+
+// @import "{{ site.theme }}";
+
+table {
+  width: 100%;
+}
+
+caption {
+  display: table-caption;
+  text-align: left;
+  caption-side: bottom;
+}
+
+table, th, td {
+  /* border-collapse: collapse; */
+  border: 1px solid gray;
+  /* font-size: calc(16 + ([16 - 12]) * ((100vw - 1200) / (1200 - 500))); */
+  font-size: clamp(0.7rem, 2vw, 1.2rem);
+}
+
+th, td {
+  /* font-family: monospace; */
+  margin: 0;
+}
+
+th {
+  text-align: left;
+}
+
+td.nowrap {
+  white-space: nowrap;  
+}
+
+#search_input {
+  box-sizing:border-box;
+  width: 100%;
+  margin-bottom: 0.3em;
+  font-size: 1em;
+  padding: 3px;
+}
+
+#search_caption {
+  margin-top: 0.3em;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.data_issue {
+  color: red;
+}
+
+/* If the screen size is 737px wide or more */
+@media screen and (min-width: 737px) {
+  /* th, td {
+    font-size: 1.5vw;
+    padding: 0.25vw;
+  } */
+  .mobile_hide {
+    display: table-cell;
+  }
+}
+
+/* If the screen size is 736px wide or less and orientation is landscape */
+@media screen and (max-width: 736px) and (orientation: landscape) {
+  body {-webkit-text-size-adjust: none;}
+  /* th, td, {
+    font-size: 1.75vw;
+    padding: 0.4vw;
+  } */
+  .mobile_hide {
+    display: table-cell;
+  }
+}
+
+/* If the screen size is 736px wide or less and orientation is portrait */
+@media screen and (max-width: 736px) and (orientation: portrait) {
+  /* th, td {
+    font-size: 2.5vw;
+    padding: 0.6vw;
+  } */
+  .mobile_hide {
+    display: none;
+  }
+}
