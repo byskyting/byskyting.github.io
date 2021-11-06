@@ -19,4 +19,4 @@ Resultatarkiv for Byskytinga: Den årlige skytekonkurransen mellom skytterlagene
 * Alle valideringer merkes med ei "*", så en kan enkelt søke og liste opp rader med valideringsfeil. 
 
 ## Bidrag
-Oppfordrer alle til å bidra med rettelser av evt feil eller manglende resultater. Det kan være mange som kan supplere med utfyllende resultater, f.eks. gamle gravkort, avisutklipp, e.l. 
+Oppfordrer alle til å bidra med rettelser av evt feil eller manglende resultater. Det kan være mange som sitter på f.eks. gamle gravkort og serieutskrifter, avisutklipp, bilder av resultat-tavle/plakat, e.l. Spesielt for år der vi mangler resultater, så vil det være kjærkomment!
