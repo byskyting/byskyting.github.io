@@ -17,5 +17,6 @@ Resultatarkiv for Byskytinga: Den årlige skytekonkurransen mellom skytterlagene
 * Poengsummer: Hvis det er lagt inn resultater der verdiene fra seriene ikke stemmer overens med summene, så vil det vises i resultatlisten. Sjekk da resultatet mot skiva/bildet og rett eventuelle feil. Om tellende resultater ikke stemmer overens med registrert totalsum for laget så vil det også utheves.
 * Antall resultater: Opp gjennom åra har det vært litt forskjellig program og antall tellende skyttere på laget. Det kan se ut som tellende skyttere var de 6 beste til 1931, de 5 beste fra 1932 til 1934, de 10 beste fra 1949 til 1981, og de 8 beste fra 1982 til i dag. Om det er registrert for få resultater og totalsummen ikke stemmer med innlagte resultat, så vil det vises.
 * Alle valideringer merkes med ei "*", så en kan enkelt søke og liste opp rader med valideringsfeil. 
-  
-NB! Oppfordrer alle til å bidra med rettelser av feil eller manglende resultater om en finner tak i gamle gravkort, avisutklipp, o.l.
+
+## Bidrag
+Oppfordrer alle til å bidra med rettelser av evt feil eller manglende resultater. Det kan være mange som kan supplere med utfyllende resultater, f.eks. gamle gravkort, avisutklipp, e.l. 
