@@ -33,10 +33,10 @@ title: Patronistskyting
   {%- assign 15_skudd_serie_sum = row["1_serie"] | plus: row["2_serie"] | plus: row["3_serie"] %}
   {%- assign 15_skudd_sum = row["15_skudd"] | plus: 0 %}
   {%- if 15_skudd_serie_sum > 0 and 15_skudd_sum > 0 and 15_skudd_serie_sum != 15_skudd_sum %}
-    <td class="data_issue">{{ row["1_serie"] }}</td>
-    <td class="data_issue">{{ row["2_serie"] }}</td>
-    <td class="data_issue">{{ row["3_serie"] }}</td>
-    <td class="data_issue">{{ row["15_skudd"] }}</td>
+    <td class="data_issue">*{{ row["1_serie"] }}</td>
+    <td class="data_issue">*{{ row["2_serie"] }}</td>
+    <td class="data_issue">*{{ row["3_serie"] }}</td>
+    <td class="data_issue">*{{ row["15_skudd"] }}</td>
   {%- else %}
     <td>{{ row["1_serie"] }}</td>
     <td>{{ row["2_serie"] }}</td>
