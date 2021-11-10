@@ -11,7 +11,7 @@ title: Lagskyting sammenlagt
   {%- if aar != forrige_aar %}
     {%- assign forrige_aar = aar %}
     {%- assign index = 1 %}
-    {%- assign arrangorlag = site.data.arrangement | where: "år", row["år"] | map: "arrangørlag" %}
+    {%- assign arrangorlag = site.data.arrangement | where: "år", row["år"] | map: "arrangørlag" | first %}
     {%- if forloop.first == false %}
         </tr>
       </table>
