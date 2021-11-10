@@ -22,7 +22,6 @@ title: Ridderutnevnelse
 </table>
 
 ## Ridderkandidater
-PS: Basert på registrerte resultater, så med et forbehold om evt feil.
 <table>
   <tr>
     <th colspan="2">Kristiansund</th>
@@ -66,3 +65,4 @@ PS: Basert på registrerte resultater, så med et forbehold om evt feil.
   </tr>
 {%- endfor %}
 </table>
+*) Kun basert på innlagte resultater
