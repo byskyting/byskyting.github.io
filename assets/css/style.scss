@@ -57,6 +57,10 @@ td.nowrap {
   color: red;
 }
 
+a:visited {
+  color: blue;
+}
+
 /* If the screen size is 737px wide or more */
 @media screen and (min-width: 737px) {
   /* th, td {
