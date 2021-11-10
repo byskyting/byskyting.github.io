@@ -64,5 +64,6 @@ title: Ridderutnevnelse
     <td>{{ elem_split_aalesund[0] | plus: 0 }}</td>
   </tr>
 {%- endfor %}
+  <caption>*) Kun basert på innlagte resultater</caption>
 </table>
 <i>*) Kun basert på innlagte resultater</i>
