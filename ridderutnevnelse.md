@@ -65,4 +65,4 @@ title: Ridderutnevnelse
   </tr>
 {%- endfor %}
 </table>
-*) Kun basert på innlagte resultater
+<i>*) Kun basert på innlagte resultater</i>
