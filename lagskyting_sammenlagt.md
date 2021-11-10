@@ -22,7 +22,7 @@ title: Lagskyting sammenlagt
     <td style="border: 0; padding-left: 0; padding-right: 0;">
       <table>
         <tr>
-          <td colspan="3" style="font-weight: bold; text-align: center;">{{ row["år"] }} ({{ arrangorlag }})</td>
+          <td colspan="3" style="font-weight: bold; text-align: center;">{{ row["år"] }} (i {{ arrangorlag | replace: "Aa", "Å" }})</td>
         </tr>
         <tr>
   {%- endif %}
